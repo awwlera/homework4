@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+main{
+   margin:2% 20% 2% 20%;
+   display: flex;
+}
+.left-side{
+    background-color: rgba(137, 137, 245, 0.5);
+    width: 40%;
+    padding: 2%;
+}
+#photo{
+    margin-top: 0;
+    padding: 30px 30px 0px 30px;
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+.left-side-item{
+    margin: 30px;
+}
+.left-side-name{
+    font-size: 20px;
+    border: 1px solid rgb(18, 18, 19);
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: fit-content;
+    background-color: rgba(248, 234, 213, 0.5);
+}
+.left-side-list{
+    padding: 10px 0px;
+    font-weight:bolder;
+    line-height: 25px;
+
+}
+#contacts{
+    list-style-type: none;
+    padding: 10px 0px;
+    font-weight:bolder;
+    line-height: 25px;
+}
+a{
+    color: rgb(3, 3, 3);
+}
+a:hover{
+    color: blue;
+}
+a:visited{
+    color:blue
+}
+.right-side{
+    background-color: rgba(248, 234, 213, 0.5);
+    padding: 5%;
+}
+.right-side-item{
+    margin: 30px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    color: rgb(66, 66, 66);
+    padding-left: 10px;
+}
+.section-name{
+    padding: 10px 0px;
+}
+.section-item{
+    padding: 10px 10px 5px 10px;
+}
+.date{
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(100, 99, 99);
+    padding: 0px 5px;
+}
+.place-name{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+.position-name{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 5px;
+    color: rgb(137, 137, 245);
+}
+.position-details{
+    padding: 10px 0px;
+    line-height: 25px; 
+}
